@@ -39,7 +39,7 @@ const (
 
 	snappyProtocolVersion = 5
 
-	pingInterval = 15 * time.Second
+	pingInterval = 2 * time.Second
 )
 
 const (
