@@ -32,7 +32,7 @@ import (
 const (
 	// Discovery lookups are throttled and can only run
 	// once every few seconds.
-	lookupInterval = 4 * time.Second
+	lookupInterval = 1 * time.Second
 )
 
 // NodeDialer is used to connect to nodes in the network, typically by using
