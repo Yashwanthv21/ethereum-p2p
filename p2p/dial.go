@@ -36,7 +36,7 @@ const (
 
 	// Discovery lookups are throttled and can only run
 	// once every few seconds.
-	lookupInterval = 4 * time.Second
+	lookupInterval = 1 * time.Second
 
 	// If no peers are found for this amount of time, the initial bootnodes are
 	// attempted to be connected.
