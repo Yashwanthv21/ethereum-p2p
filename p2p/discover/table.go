@@ -38,13 +38,13 @@ import (
 )
 
 const (
-	alpha      = 3  // Kademlia concurrency factor
-	bucketSize = 16 // Kademlia bucket size
+	alpha      = 5  // Kademlia concurrency factor
+	bucketSize = 25 // Kademlia bucket size
 	hashBits   = len(common.Hash{}) * 8
 	nBuckets   = hashBits + 1 // Number of buckets
 
-	maxBondingPingPongs = 16
-	maxFindnodeFailures = 5
+	maxBondingPingPongs = 8
+	maxFindnodeFailures = 2
 
 	autoRefreshInterval = 1 * time.Hour
 	seedCount           = 30
